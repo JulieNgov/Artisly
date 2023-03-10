@@ -1,0 +1,298 @@
+body{
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: rgb(255, 217, 248);
+}
+
+.bg-img {
+  background-image: url(./images/bg.jpg);
+  height: 45vh;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.container {
+  position: absolute;
+  margin: 1vh;
+  width: auto;
+}
+
+.top-nav{
+  overflow: hidden;
+  opacity: 1;
+}
+
+.top-nav a{
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.top-nav a:hover{
+  opacity: 0.5;
+}
+
+.title {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 10%;
+}
+
+.buttons-log {
+  padding: 15px;
+}
+
+.buttons-log a {
+  text-decoration: none;
+  border: 2px solid white;
+  opacity: 1;
+  margin: auto;
+  padding: 5px 20px;
+  background-color: rgb(247, 184, 184);
+  color: white;
+  border-radius: 10%;
+}
+
+.buttons-log a:hover{
+  background-color: rgb(137, 226, 196);
+}
+
+.card img {
+  width: 100%;
+}
+
+.drop{
+  display: flex;
+    font-size: 80px;
+    margin: 2%;
+    justify-content: center;
+    font-family: "Russo One", sans-serif;
+}
+
+.R {
+  opacity: 0;
+  animation: drop 0.4s linear forwards;
+  color: #e633ad;
+  margin-right: 8px;
+}
+
+.E {
+  opacity: 0;
+  animation: drop 0.4s linear forwards 0.2s;
+  color: #f358c2;
+  margin-right: 8px;
+}
+
+.J {
+  opacity: 0;
+  animation: drop 0.4s linear forwards 0.4s;
+  color: #f781cf;
+  margin-right: 8px;
+}
+
+.O {
+  opacity: 0;
+  animation: drop 0.4s linear forwards 0.8s;
+  color: #de7ee5;
+  margin-right: 8px;
+}
+
+.I {
+  opacity: 0;
+  animation: drop 0.4s linear forwards 0.8s;
+  color: #de7ee5;
+  margin-right: 8px;
+}
+
+.G {
+  opacity: 0;
+  animation: drop 0.4s linear forwards 0.8s;
+  color: #de7ee5;
+  margin-right: 8px;
+}
+
+.N2 {
+  opacity: 0;
+  animation: drop 0.4s linear forwards 0.8s;
+  color: #de7ee5;
+  margin-right: 8px;
+}
+
+.E2 {
+  opacity: 0;
+  animation: drop 0.4s linear forwards 0.8s;
+  color: #de7ee5;
+  margin-right: 8px;
+}
+
+.Z {
+  opacity: 0;
+  animation: drop 0.4s linear forwards 0.8s;
+  color: #de7ee5;
+  margin-right: 40px;
+}
+
+.N {
+  opacity: 0;
+  animation: drop 0.4s linear forwards 0.6s;
+  color: #c589e6;
+  margin-right: 8px;
+}
+
+.O {
+  opacity: 0;
+  animation: drop 0.4s linear forwards 0.8s;
+  color: #de7ee5;
+  margin-right: 8px;
+}
+
+.U {
+  opacity: 0;
+  animation: drop 0.4s linear forwards 0.8s;
+  color: #de7ee5;
+  margin-right: 8px;
+}
+
+.S {
+  opacity: 0;
+  animation: drop 0.4s linear forwards 0.8s;
+  color: #c589e6;
+  margin-right: 8px;
+}
+
+@keyframes drop {
+  0% {
+      transform: translateY(-200px);
+      opacity: 0;
+  }
+  50% {
+      transform: translateY(0px);
+      opacity: 1;
+  }
+  65% {
+      transform: translateY(-17px);
+      opacity: 1;
+  }
+  75% {
+      transform: translateY(-22px);
+      opacity: 1;
+  }
+  100% {
+      transform: translateY(0px);
+      opacity: 1;
+  }
+}
+
+
+.join {
+  border: 5px solid white;
+  display: flex;
+  padding: 10px 40px;
+  margin: 10px auto;
+  justify-content: center;
+  
+}
+
+.block {
+  text-align: center;
+  width: 20%;
+  margin: 20px auto;
+}
+
+.part-two {
+  padding: 10px 40px;
+  justify-content: center;
+  border: 5px solid white;
+  margin: 10px auto;
+}
+
+.part-two h2 {
+  background-color: rgb(247, 184, 184);
+  padding: 1%;
+  width: 50%;
+  align-items: center;
+  text-align: center;
+  border: 2px solid rgb(255, 255, 255);  
+  border-radius: 10%;
+  color: white;
+  margin: 20px auto;
+}
+
+.card-container {
+  display: flex;
+  width: 100%;
+  margin: auto;
+}
+
+.card{
+  padding: 5px;
+  height: 100%;
+  width: 100%;  
+  background-color: rgb(247, 184, 184);
+  border: 2px solid rgb(255, 255, 255);  
+}
+
+.card a{
+  text-align: left;
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.card p {
+  font-size: 15px;
+  text-align: right;
+  color: white;
+
+}
+
+.card i {
+  display: inline;
+  margin-right: 3px;  
+}
+
+.card p:hover {
+  text-decoration: underline;
+}
+
+.card a:hover{
+  text-decoration: underline;
+}
+
+.card img {
+  width: 100%;
+  height: 300px;
+}
+
+.below {
+width: auto;
+text-align: center;
+padding: 20px;
+}
+
+.links a{
+  color: rgb(72, 72, 72);
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+
+@keyframes animefall {
+  0%{
+      font-family: green;
+  }
+  30%{
+      font-family: brown;
+  }
+  100%{
+      font-family: aquamarine;
+  }
+}
